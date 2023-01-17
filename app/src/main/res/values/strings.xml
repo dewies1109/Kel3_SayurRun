@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Kel3_SayurRun</string>
+    <string name="ob1">Kesegaran dan Kebersihan</string>
+    <string name="ob2">Sayur-Run adalah sebuah aplikasi yang menyediakan layanan untuk memenuhi kebutuhan sayuran.</string>
+    <string name="ob3">Supply dan Penjualan Sayuran</string>
+    <string name="beranda"><u>Beranda</u></string>
+    <string name="sayuran"><u>Sayuran</u></string>
+    <string name="pesanan"><u>Pesanan</u></string>
+    <string name="tot"><u>Total :     Rp 129.000</u></string>
+    <string name="profil"><u>Profil</u></string>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="79dp"
+            android:layout_height="64dp"
+            android:src="@drawable/ats_kiri" />
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="105dp"
+            android:layout_height="109dp"
+            android:src="@drawable/ats_kanan"
+            android:layout_alignParentRight="true"/>
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="92dp"
+            android:layout_height="87dp"
+            android:src="@drawable/bwh_kiri"
+            android:layout_alignParentBottom="true"/>
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:src="@drawable/bwh_kanan"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"/>
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="150dp"
+            android:layout_height="153.3dp"
+            android:src="@drawable/syr"
+            android:layout_below="@id/img1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="33dp"/>
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img5"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="48dp"
+            android:text="Masuk ke akun anda"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="20dp"
+            android:textColor="#0C2E0B"/>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt1"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="24dp"
+            android:text="Email"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="12dp"
+            android:textColor="#564734"/>
+
+        <EditText
+            android:id="@+id/in1"
+            android:layout_below="@id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/input"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="12dp"
+            android:textColor="#0C2E0B"
+            android:paddingLeft="16dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"/>
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/in1"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="24dp"
+            android:text="Password"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="12dp"
+            android:textColor="#564734"/>
+
+        <EditText
+            android:id="@+id/in2"
+            android:layout_below="@id/txt3"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/input"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="12dp"
+            android:textColor="#0C2E0B"
+            android:paddingLeft="16dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"/>
+
+        <Button
+            android:id="@+id/btnlog"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/in2"
+            android:layout_marginTop="54dp"
+            android:background="@drawable/round_button"
+            android:text="LOGIN"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="14dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
